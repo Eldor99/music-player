@@ -8,7 +8,7 @@ function chillHop() {
             cover: 'https://chillhop.com/wp-content/uploads/2020/10/0e5bb63f838ff92eeac142aae944e9f678df13c9-1024x1024.jpg',
             artist: 'Shopan',
             id: uuidv4(),
-            active: false,
+            active: true,
             color: ['#C8B1C5', '#275564'],
             audio: 'https://mp3.chillhop.com/serve.php/?mp3=10311'
         },
@@ -33,3 +33,5 @@ function chillHop() {
 
     ]
 }
+
+export default chillHop;
